@@ -5,6 +5,7 @@ A full-stack blogging platform built with **Node.js**, **Express**, and **EJS**.
 > ⚠️ **Note:**  
 > - Blog posts created are **not stored permanently** — they reset on page refresh or server restart.  
 > - The layout is **not yet fully optimized for mobile devices**. Full mobile support is planned in a future update.
+> - This site is hosted using render so if site is not loaded when opened refrsh it and wait for some time
 
 ---
 
