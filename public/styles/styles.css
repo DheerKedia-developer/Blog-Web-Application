@@ -1,0 +1,134 @@
+body {
+    background-color: #1c1c1c !important;
+}
+
+.navbar {
+    background-color: #2c2c2c !important;
+}
+.navbar-brand {
+    color : #a0ced9 !important;
+}
+.nav-link{
+    color: hotpink;   
+    font-size: 20px;
+}
+.nav-link:hover {
+    color: skyblue;
+}
+.navbar-brand:hover {
+    text-decoration: none !important;
+    cursor: default !important;
+    color:#a0ced9 !important;
+}
+hr {
+    border : solid white;
+}
+.contact-me {
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.quote {
+    margin-bottom: 7px;
+    white-space: nowrap;
+    margin-left: 15px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.social-icon {
+    margin-left: 15px;
+    width: 35px;
+    height: auto;
+}
+
+.social-icon-2 {
+    margin-left: 10px;
+    width: 35px;
+    height: auto;
+}
+
+.email-link {
+    color: white;
+    margin-right: 13px !important;
+    margin-bottom: 0px;
+}
+
+.three-columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;                /* Equal width */
+  padding: 20px;
+  color: #a0ced9;
+}
+
+.question {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.question-answer {
+    color: #aabec6;
+}
+
+h2 {
+    margin-top: 13px;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.list-itmes li {
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 13px;
+}
+.love {
+    text-decoration: none;
+    color :#a0ced9;
+}
+.love:hover {
+    color : white;
+}
+.title-box {
+    border: 1px solid #a0ced9;
+    background-color: #2c2c2c; /* light grey */
+    line-height: 40px;
+    width: 500px;
+    color: #a0ced9;
+    margin-top: 20px;
+}
+
+.title-box:focus {
+    border: 1px solid #a0ced9;
+    outline: none;
+}
+.box {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.title-box::placeholder {
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 7px;
+    align-self: center;
+}
+.dumb {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-left: 50px;
+}
+.btn {
+    background-color: #a0ced9;
+    color: whitesmoke;
+}

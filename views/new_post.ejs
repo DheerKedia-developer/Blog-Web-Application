@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs"); %>
+    <form action="/create"  method="post">
+        <div class="box">
+            <input type="text" name = "title" class = "title-box" placeholder="Blog Title : ">
+        </div>
+        <br>
+        <div class="box">
+            <textarea name = "content" class = "title-box" rows="10" cols="70" placeholder="Write your blog..."></textarea>
+        </div>
+        <div class = "dumb">
+            <button type="submit" class="btn btn-primary mt-3">Create Blog</button>
+        </div>
+    </form>
+    <% if(locals.blogCreated) { %>
+        <script>
+            alert("Blog has been created!");
+        </script>
+    <% } %>
+<%- include("partials/footer.ejs"); %>
